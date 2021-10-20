@@ -1,0 +1,12 @@
+.gp-bg{
+    height: 100vh;
+    background-color: red;
+    animation-name: horrid;
+    animation-iteration-count: infinite;
+    animation-duration: 0.2s;
+}
+
+.gp-arrow{
+    font-size: 50px;
+}
+

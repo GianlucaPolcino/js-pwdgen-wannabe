@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Password generator</title>
 </head>
 <body>
-    <div>
-        <h1 class="text-center pb-5">Super secure Password Generator, trust me!</h1>
-        <p class="text-center"><span id="pswgenerated"></span>21</p>
+    <div class="container-fluid gp-bg">
+        <div class="row">
+            <div class="col text-center text-white">
+                <h1 class="p-5">Super secure Password Generator, trust me!</h1>
+                <h2 class="p-5">Use this for your bank account! 100% guaranteed!!!</h2>
+                <span><i class="fas fa-arrow-down gp-arrow p-5"></i></span>
+                <h3 class="pb-5"><span id="pswgenerated"></span></h3>
+                <p>La tua password è di <span id="pswlenght"></span> caratteri</p>
+            </div>
+        </div>
     </div>
     
     <script src="assets/scrypt.js"></script>
